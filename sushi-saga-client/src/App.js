@@ -35,6 +35,8 @@ class App extends Component {
 		const {sushiIndex, sushis} = this.state;
 		if (sushiIndex + 4 < sushis.length) {
 			this.setState({sushiIndex: sushiIndex + 4});
+		} else {
+			this.setState({sushiIndex: 0});
 		}
 	};
 
