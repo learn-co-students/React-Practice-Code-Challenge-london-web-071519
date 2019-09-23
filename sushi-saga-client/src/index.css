@@ -11,7 +11,7 @@ body {
   grid-auto-rows: minmax(100px, auto);
   align-items: center;
   grid-template-areas: 
-      ". . . . ."
+      ". nav nav nav ."
       ". bt bt bt ."
       ". . rm . ."
       ". tb tb tb .";
@@ -76,4 +76,15 @@ body {
   height: 428px;
   width: 700px;
   margin: auto;
+}
+
+.nav-bar {
+  grid-area: nav;
+  height: 100%;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.form {
+  margin: 3%;
 }
