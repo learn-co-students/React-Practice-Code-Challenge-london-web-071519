@@ -75,5 +75,6 @@ body {
   background-position: center;
   height: 428px;
   width: 700px;
-  margin: auto;
+  /* margin: auto; */
+  margin-left: 20%;
 }
